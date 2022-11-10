@@ -1,0 +1,23 @@
+{
+  "name": "koa2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "koa-websocket": "^7.0.0",
+    "koa2": "^2.0.0-alpha.7",
+    "koa2-cors": "^2.0.6",
+    "mongodb": "^4.11.0",
+    "nodemon": "^2.0.20",
+    "os": "^0.1.2"
+  }
+}
